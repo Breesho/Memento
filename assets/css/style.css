@@ -64,9 +64,19 @@ h1 {
 h2 {
     font-size: 25px;
 }
-h2:hover {
+
+#explicationhtmlcss h2, #explicationgitgithub h2, #explicationgrid h2, #annexe h2 {
+
     
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: black ;
+    margin-bottom: 10px;
+    padding: 10px;
 }
+
 p {
     font-size: 16px;
 }
@@ -142,24 +152,8 @@ div#homepage {
     align-items: center;
 }
 
-
-
-
-#explicationhtmlcss {
-   
-   
-}
-#explicationhtmlcss h2 {
-
-    
-    display: inline-block;
-    color: white;
-    background-color: black ;
+#annexe a {
+    display: block;
+    color: black;
     margin-bottom: 10px;
-    padding: 10px;
-
-}
-#explicationhtmlcss p {
-   
- 
 }
