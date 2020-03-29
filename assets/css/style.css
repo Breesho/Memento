@@ -1,0 +1,165 @@
+html,
+body {
+    border: 0 solid transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: block;
+    position: relative;
+    
+}
+
+div,
+header,
+nav,
+article,
+section,
+aside,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li,
+figure,
+figcaption,
+class,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background-color: black;
+    color: white;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.center {
+    width: 80%;
+    margin: 0 auto;
+}
+.margin {
+
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+h1 {
+    font-size:80px;
+    text-transform: uppercase;
+    letter-spacing: 50px;
+}
+h2 {
+    font-size: 25px;
+}
+h2:hover {
+    
+}
+p {
+    font-size: 16px;
+}
+
+
+
+
+div#header {
+    width: 100%;
+    height: auto;
+    position: static;
+    background-color: white;
+    box-shadow: 0px 10px 15px -14px rgba(0, 0, 0, 0.75);
+}
+#header #LogoMemento {
+    width: 20%;
+    justify-content: center;
+    align-content: center;
+    
+}
+#header #LogoMemento a figure {
+    background-size: contain;
+    background-image: url(../img/Logo_Memento.png);
+    width: 80px;
+    height: 80px;
+    transition: all 0.5s;
+}
+#header #LogoMemento a figure:hover {
+    background-size: contain;
+    background-image: url(../img/Logo_Memento_hover.png);
+    width: 80px;
+    height: 80px;
+    transition: all 0.5s;
+}
+#header #navigation {
+    width: 80%;
+}
+
+#header #navigation ul {
+    width: 100%;
+    height: 10vh;
+    flex-direction: row;
+    
+}
+#header #navigation ul li {
+    list-style: none;
+    width: 15%;
+  
+}
+#header #navigation ul li a  {
+    display: block;
+    text-align:center;
+    line-height: 10vh;
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s;
+    text-transform: uppercase;
+}
+#header #navigation ul li a:hover  {
+    transition: all 0.5s;
+    letter-spacing: 2px;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    
+
+}
+
+div#homepage {
+    width: 100%;
+    height:90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#explicationhtmlcss {
+   
+   
+}
+#explicationhtmlcss h2 {
+
+    
+    display: inline-block;
+    color: white;
+    background-color: black ;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+#explicationhtmlcss p {
+   
+ 
+}
