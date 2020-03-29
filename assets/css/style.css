@@ -58,8 +58,12 @@ img {
 
 h1 {
     font-size:80px;
+    padding: 20px;
+    letter-spacing: 10px;
     text-transform: uppercase;
-    letter-spacing: 50px;
+    background-color: black ;
+    color: white;
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
 }
 h2 {
     font-size: 25px;
@@ -158,4 +162,10 @@ div#homepage {
     display: block;
     color: black;
     margin-bottom: 10px;
+    text-decoration: none ;
+    font-weight: 300;
+}
+#annexe a:hover {
+  
+    text-decoration: underline    ;
 }
